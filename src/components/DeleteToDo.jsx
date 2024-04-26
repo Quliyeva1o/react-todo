@@ -9,7 +9,7 @@ const DeleteToDo = ({ todo, todos, setTodos }) => {
   }
 
   return (
-    <button onKeyUp={ "" ? setTodos(todos) :handleDeleteClick}>Delete</button>
+    <button onClick={handleDeleteClick}>Delete</button>
   );
 }
 

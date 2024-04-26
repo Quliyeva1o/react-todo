@@ -1,5 +1,3 @@
-// Todo.jsx
-
 import React, { useState } from 'react';
 import AddTodo from './AddToDo.jsx';
 import SearchTodo from './SearchToDo.jsx';
